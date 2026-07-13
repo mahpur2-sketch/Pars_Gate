@@ -46,9 +46,23 @@ backdrop-filter:blur(16px);
 transition:.4s;
 }
 
-header .container{
+header{
 display:flex;
 justify-content:space-between;
+align-items:center;
+padding:22px 7%;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+z-index:999;
+background:rgba(7,24,46,.72);
+backdrop-filter:blur(16px);
+}
+
+nav{
+display:flex;
+gap:35px;
 align-items:center;
 }
 
@@ -142,3 +156,11 @@ border:2px solid #fff;
 background:#fff;
 color:#07182E;
 }
+.buttons{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:20px;
+  }
