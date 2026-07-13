@@ -183,3 +183,44 @@ border:2px solid rgba(255,255,255,.75);
 background:#fff;
 color:#07182E;
                                 }
+.top-bar{
+    background:#0f3b63;
+    color:#fff;
+    padding:10px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    font-size:14px;
+}
+
+.top-left{
+    display:flex;
+    gap:12px;
+    font-weight:bold;
+}
+
+.top-right{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.top-right span{
+    white-space:nowrap;
+}
+
+@media(max-width:768px){
+
+.top-bar{
+    justify-content:center;
+    text-align:center;
+    gap:10px;
+}
+
+.top-left,
+.top-right{
+    justify-content:center;
+}
+
+}
