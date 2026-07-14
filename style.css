@@ -238,9 +238,9 @@ color:#07182E;
     align-items:center;
     text-decoration:none;
     font-size:30px;
-    box-shadow:0 8px 25px rgba(0,0,0,.25);
+    box-shadow:0 10px 30px rgba(37,211,102,.35);
     z-index:9999;
-    transition:.3s;
+    transition:all .3s ease;
 }
 
 .whatsapp-float:hover{
