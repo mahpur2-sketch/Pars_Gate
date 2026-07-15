@@ -1,3 +1,18 @@
+:root{
+
+    --hero-image:url("hero-bg.jpg");
+
+    --primary:#0d2b45;
+
+    --gold:#d4af37;
+
+    --white:#ffffff;
+
+    --glass:rgba(8,20,35,.45);
+
+    --shadow:0 20px 60px rgba(0,0,0,.35);
+}
+
 /* ==========================
    RESET
 ========================== */
