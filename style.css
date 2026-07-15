@@ -1,6 +1,5 @@
 :root{
-
-    --hero-image:url("hero-bg.jpg");
+--hero-image:url("hero-bg.jpg");
 
     --primary:#0d2b45;
 
@@ -128,18 +127,25 @@ width:100%;
 ========================== */
 
 .hero{
-position:relative;
-min-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:120px 30px;
-background:
-linear-gradient(rgba(4,15,30,.70),rgba(4,15,30,.82)),
-url("https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1800&q=80");
-background-size:cover;
-background-position:center;
+    position:relative;
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    padding:120px 30px;
+
+    background:
+    linear-gradient(rgba(5,18,35,.55),rgba(5,18,35,.72)),
+    var(--hero-image);
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    overflow:hidden;
 }
 
 .overlay{
