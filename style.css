@@ -135,7 +135,7 @@ width:100%;
     align-items:center;
     text-align:center;
 
-    padding:170px 30px 110px;
+    padding:145px 30px 90px;
 
     background:
     linear-gradient(rgba(5,18,35,.55),rgba(5,18,35,.72)),
@@ -168,9 +168,9 @@ margin-bottom:18px;
 }
 
 .hero h1{
-font-size:64px;
+font-size:60px;
 font-weight:800;
-line-height:1.15;
+line-height:1.25;
 margin-bottom:25px;
 }
 
@@ -181,7 +181,7 @@ font-weight:400;
 color:#E8E8E8;
 line-height:1.8;
 margin-top:12px;
-margin-bottom:55px;
+margin-bottom:42px;
 }
 
 .hero p{
