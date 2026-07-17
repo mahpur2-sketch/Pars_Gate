@@ -438,14 +438,16 @@ height:56px;
 
 }
 
-.product-card i{
+.product-card img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+    margin:0 auto 22px;
+    transition:.4s;
+}
 
-    font-size:48px;
-
-    color:#D4AF37;
-
-    margin-bottom:22px;
-
+.product-card:hover img{
+    transform:scale(1.08);
 }
 
 .product-card h3{
