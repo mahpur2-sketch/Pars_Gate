@@ -1,17 +1,31 @@
+/* ==========================
+ROOT VARIABLES
+========================== */
 :root{
---hero-image:url("images/hero-bg.png");
 
-    --primary:#0d2b45;
-
-    --gold:#d4af37;
+    --primary:#0D2B45;
+    --secondary:#163A5F;
+    --gold:#D4AF37;
+    --gold-light:#F4D77B;
 
     --white:#ffffff;
+    --text:#dfe7ef;
+    --muted:#b8c5d3;
 
-    --glass:rgba(8,20,35,.45);
+    --glass:rgba(255,255,255,.08);
+    --glass-border:rgba(255,255,255,.12);
 
-    --shadow:0 20px 60px rgba(0,0,0,.35);
+    --shadow:0 15px 40px rgba(0,0,0,.28);
+
+    --radius:18px;
+
+    --transition:.35s ease;
+
+    --container:1280px;
+
+    --hero-image:url("images/hero-bg.jpg");
+
 }
-
 /* ==========================
    RESET
 ========================== */
